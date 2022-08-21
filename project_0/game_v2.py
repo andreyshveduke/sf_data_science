@@ -64,7 +64,7 @@ def score_game(predict) -> int:
     """Расчитывает среднее  за которое будет найдено  загаданное число от 1 до 100 
 
     Args:
-        random_predict (_type_): Функция которая угадывает число
+        predict (_type_): Функция которая угадывает число
 
     Returns:
         int: среднее из резултьтатов 1000 попыток
@@ -82,4 +82,4 @@ def score_game(predict) -> int:
 
 
 if __name__ == "__main__":
-    score_game( effective_predict )
+    score_game( random_predict )
